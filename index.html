@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — Palavreando</title>
+<style>
+  :root { --teal:#00665E; --teal-light:#00897B; --ink:#1A1C1C; --muted:#5A6462; --line:#DDE5E3; }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; padding:0 16px 64px;
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink); background:#fff;
+  }
+  main { max-width:720px; margin:0 auto; }
+  header { border-bottom:3px solid var(--teal); padding:40px 0 20px; margin-bottom:28px; }
+  h1 { margin:0 0 8px; font-size:28px; color:var(--teal); line-height:1.25; }
+  h2 { margin:34px 0 10px; font-size:19px; color:var(--teal); }
+  h3 { margin:22px 0 6px; font-size:16px; }
+  .meta { color:var(--muted); font-size:14px; margin:0; }
+  table { border-collapse:collapse; width:100%; margin:14px 0; font-size:15px; }
+  th,td { border:1px solid var(--line); padding:9px 11px; text-align:left; vertical-align:top; }
+  th { background:#F2F7F6; font-weight:600; }
+  ul { padding-left:22px; }
+  li { margin:6px 0; }
+  a { color:var(--teal-light); }
+  code { background:#F2F7F6; padding:1px 5px; border-radius:3px; font-size:14px; }
+  footer { margin-top:44px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+  @media (max-width:520px) { h1{font-size:24px;} table,th,td{font-size:14px;} }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <h1>Política de Privacidade</h1>
+  <p class="meta">Aplicativo <strong>Palavreando</strong> · Última atualização: 19 de outubro de 2026</p>
+</header>
+
+<p>
+  Esta política explica quais dados o aplicativo <strong>Palavreando</strong>
+  (pacote <code>com.talero.palavreando</code>, doravante "o aplicativo") coleta,
+  como os utiliza e com quem os compartilha. Ela se aplica exclusivamente a este
+  aplicativo, distribuído pelo Google Play.
+</p>
+
+<h2>1. Resumo</h2>
+<ul>
+  <li>O aplicativo <strong>não exige cadastro</strong> e não pede nome, e-mail, telefone ou qualquer dado que o identifique diretamente.</li>
+  <li>Seu <strong>progresso no jogo fica armazenado no próprio aparelho</strong> e não é enviado para nossos servidores — não operamos servidores próprios.</li>
+  <li>O aplicativo exibe anúncios e usa ferramentas de análise e de relatório de falhas fornecidas pelo <strong>Google</strong>, que coletam dados do dispositivo conforme descrito abaixo.</li>
+  <li>O aplicativo <strong>não realiza vendas, assinaturas ou compras</strong> de qualquer espécie.</li>
+</ul>
+
+<h2>2. Dados armazenados apenas no seu aparelho</h2>
+<p>
+  Os dados abaixo ficam gravados localmente no armazenamento do aplicativo.
+  Eles não são transmitidos para nós nem para terceiros, e são apagados quando
+  você desinstala o aplicativo ou limpa os dados dele nas configurações do Android:
+</p>
+<ul>
+  <li>progresso nos desafios diários e no Modo Livre;</li>
+  <li>sequência (streak), nível e saldo de "letras";</li>
+  <li>estatísticas de partidas e distribuição de tentativas;</li>
+  <li>preferências de tema, som e lembrete.</li>
+</ul>
+
+<h2>3. Dados coletados por serviços do Google</h2>
+<p>
+  O aplicativo integra serviços do Google que coletam dados automaticamente.
+  Nesses tratamentos o Google atua como operador ou como controlador independente,
+  conforme a finalidade:
+</p>
+
+<table>
+  <tr>
+    <th>Serviço</th>
+    <th>Dados tratados</th>
+    <th>Finalidade</th>
+  </tr>
+  <tr>
+    <td><strong>Google AdMob</strong></td>
+    <td>Identificador de publicidade (Advertising ID), endereço IP, modelo do aparelho, versão do sistema, idioma, interações com os anúncios</td>
+    <td>Exibir anúncios, medir desempenho e prevenir fraude e tráfego inválido</td>
+  </tr>
+  <tr>
+    <td><strong>Firebase Analytics</strong></td>
+    <td>Identificador pseudônimo da instalação, Advertising ID, eventos de uso (telas abertas, desafios concluídos), modelo do aparelho, versão do sistema, idioma, região aproximada derivada do IP</td>
+    <td>Entender como o aplicativo é usado e orientar melhorias</td>
+  </tr>
+  <tr>
+    <td><strong>Firebase Crashlytics</strong></td>
+    <td>Registros de falhas, rastreamento de pilha, estado do aparelho no momento do erro, identificador pseudônimo da instalação</td>
+    <td>Diagnosticar e corrigir travamentos e erros</td>
+  </tr>
+</table>
+
+<p>
+  Esses dados são tratados conforme a
+  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a>.
+  Veja também
+  <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">como o Google usa dados em seus serviços de publicidade</a>
+  e os
+  <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">compromissos de privacidade do Firebase</a>.
+</p>
+
+<h2>4. Permissões solicitadas</h2>
+<p>O aplicativo declara apenas duas permissões:</p>
+<ul>
+  <li><code>android.permission.INTERNET</code> — necessária para carregar anúncios e enviar dados de análise e de falhas. Os desafios em si funcionam sem conexão.</li>
+  <li><code>com.google.android.gms.permission.AD_ID</code> — acesso ao identificador de publicidade, usado pelo AdMob e pelo Firebase Analytics.</li>
+</ul>
+<p>
+  O aplicativo <strong>não solicita</strong> acesso a localização precisa, contatos,
+  câmera, microfone, agenda, arquivos pessoais, SMS ou histórico de chamadas.
+</p>
+
+<h2>5. Compartilhamento</h2>
+<p>
+  Não vendemos seus dados. O compartilhamento se limita aos serviços do Google
+  descritos na seção 3, que atuam como provedores de publicidade, análise e
+  diagnóstico. Também poderemos divulgar informações se formos legalmente
+  obrigados a isso por ordem de autoridade competente.
+</p>
+
+<h2>6. Bases legais (LGPD e GDPR)</h2>
+<p>
+  Para usuários no Brasil, o tratamento se apoia na Lei nº 13.709/2018 (LGPD);
+  para usuários no Espaço Econômico Europeu e no Reino Unido, no GDPR. As bases legais são:
+</p>
+<ul>
+  <li><strong>Legítimo interesse</strong> — métricas de uso, diagnóstico de falhas, prevenção a fraude e exibição de anúncios não personalizados;</li>
+  <li><strong>Consentimento</strong> — anúncios personalizados, quando aplicável. No Espaço Econômico Europeu e no Reino Unido o consentimento é solicitado por meio da plataforma de mensagens de privacidade do Google antes da exibição de anúncios personalizados, e pode ser revogado a qualquer momento.</li>
+</ul>
+
+<h2>7. Seus direitos e controles</h2>
+<p>Você pode, a qualquer momento:</p>
+<ul>
+  <li><strong>Redefinir ou excluir o identificador de publicidade</strong> — Configurações do Android › Google › Todos os serviços › Anúncios;</li>
+  <li><strong>Desativar a personalização de anúncios</strong> — no mesmo menu, ative "Excluir ID de publicidade" ou "Desativar personalização de anúncios";</li>
+  <li><strong>Apagar todos os dados locais</strong> — Configurações do Android › Aplicativos › Palavreando › Armazenamento › Limpar dados, ou simplesmente desinstalar o aplicativo;</li>
+  <li><strong>Exercer os direitos de titular</strong> previstos na LGPD e no GDPR (confirmação, acesso, correção, anonimização, portabilidade, eliminação e revogação de consentimento) entrando em contato pelo e-mail da seção 10.</li>
+</ul>
+
+<h2>8. Retenção</h2>
+<p>
+  Os dados locais permanecem no aparelho até que você os apague ou desinstale o
+  aplicativo. Os dados tratados pelos serviços do Google seguem os prazos de
+  retenção definidos pelo próprio Google — por padrão, os dados de eventos do
+  Firebase Analytics são retidos por período limitado e configurável, e os
+  relatórios de falha do Crashlytics por aproximadamente 90 dias.
+</p>
+
+<h2>9. Crianças</h2>
+<p>
+  O aplicativo é destinado a pessoas com <strong>13 anos ou mais</strong> e não é
+  direcionado a crianças. Não coletamos conscientemente dados de menores de 13 anos.
+  Se você é responsável legal e acredita que uma criança forneceu dados por meio do
+  aplicativo, escreva para o contato abaixo e tomaremos as providências cabíveis.
+</p>
+
+<h2>10. Alterações nesta política</h2>
+<p>
+  Podemos atualizar esta política para refletir mudanças no aplicativo ou na
+  legislação. A data da última atualização aparece no topo da página. Alterações
+  relevantes serão comunicadas por meio da descrição do aplicativo no Google Play.
+</p>
+
+<h2>11. Contato</h2>
+<p>
+  Controlador dos dados: <strong>Talero</strong><br>
+  E-mail para assuntos de privacidade:
+  <a href="mailto:talero.dev@gmail.com">talero.dev@gmail.com</a>
+</p>
+<p>
+  Responderemos às solicitações de titulares no prazo previsto na legislação aplicável.
+</p>
+
+<footer>
+  Palavreando · <code>com.talero.palavreando</code> · Esta política aplica-se somente a este aplicativo.
+</footer>
+
+</main>
+</body>
+</html>
